@@ -1,99 +1,103 @@
-<p align="center">
-  <img src="vision.png" alt="Computer Vision Roadmap Banner" width="100%">
-</p>
+# 🧠 AI Roadmap
 
-<h1 align="center">📷 Machine Vision Roadmap</h1>
-
-<p align="center">
-  Your personal learning path to mastering the foundations of <strong>Computer Vision</strong>.
-</p>
+A comprehensive, step-by-step learning path for mastering **Artificial Intelligence** — from fundamentals to advanced concepts. Ideal for students, researchers, and aspiring AI engineers.
 
 ---
 
-## 📚 Introduction
+## 🚀 About This Repository
 
-This roadmap is designed for anyone eager to enter the field of **Machine Vision** and understand its core foundations — from math and geometry to image processing and algorithms. 
+This repository serves as a curated roadmap for learning AI. It is designed to guide learners from beginner to expert by combining **theoretical knowledge**, **practical projects**, and **industry-relevant tools**.
 
-Whether you're an AI enthusiast, a graphics engineer, or a computer vision researcher, this guide is curated to help you build a **strong theoretical base** and **hands-on intuition**.
-
----
-
-## 🔢 1. Foundational Mathematics
-
-### 📘 [Mathematics for Machine Learning](https://mml-book.github.io/)  
-**Authors:** Deisenroth, Faisal, Ong
-
-> A beautifully structured book covering Linear Algebra, Multivariate Calculus, and Probability — exactly what you need to understand the math powering computer vision models.
+Whether you're just getting started or looking to specialize in NLP, Computer Vision, or MLOps, this roadmap will help you find the right resources and organize your journey efficiently.
 
 ---
 
-## 🧭 2. Geometry (with focus on Camera and Projective Geometry)
+## 📁 Folder Structure
 
-### 📘 Multiple View Geometry in Computer Vision  
-**Authors:** Richard Hartley, Andrew Zisserman  
-**📎 MIT OCW Summary & Lectures:** [Link](https://ocw.mit.edu/courses/6-869-adv-comp-vision-fall-2005/lecture-notes/)
-
-> The **definitive textbook** for geometric vision: projective geometry, epipolar constraints, camera calibration, and multi-view reconstruction.
-
----
-
-## 🎨 3. Computer Graphics
-
-### 📘 Computer Graphics: Principles and Practice  
-**Authors:** Foley, van Dam, Feiner, Hughes
-
-### 📺 Stanford CS148 - Introduction to Computer Graphics  
-[Website](https://cs148.stanford.edu/)
-
-> Start fast with this **project-oriented course** that bridges computer graphics with vision pipelines. Great for understanding rendering, shading, transformations, and 3D perception.
+```
+AI-roadmap/
+├── math/                    # Foundational mathematics for AI
+├── programming/             # Python and essential programming skills
+├── machine-learning/        # Classical ML models and evaluation
+├── deep-learning/           # Neural networks and deep learning
+├── NLP/                     # Natural Language Processing
+├── computer-vision/         # Image processing and vision-based AI
+├── reinforcement-learning/  # Reinforcement learning and agents
+├── MLOps/                   # Deployment and lifecycle of ML models
+└── resources/               # Additional links and reading materials
+```
 
 ---
 
-## 🖼 4. Image Processing
+## 🎯 Topics Covered
 
-### 📘 Digital Image Processing  
-**Authors:** Rafael C. Gonzalez, Richard E. Woods
-
-### 📺 MIT OCW Lecture on Image Processing  
-[Link](https://ocw.mit.edu/courses/6-111-introductory-digital-systems-laboratory-spring-2006/pages/video-lectures/image-processing/)
-
-> A **classic reference** for understanding filters, convolution, edge detection, morphological operations, and frequency-domain processing.
-
----
-
-## 👁 5. Computer Vision (Core Algorithms)
-
-### 📘 [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)  
-**Author:** Richard Szeliski
-
-> A comprehensive dive into the **core CV algorithms**: feature detection, matching, optical flow, structure from motion, and 3D reconstruction.
-
-### 📺 Stanford CS231A - Computer Vision: From 3D Reconstruction to Recognition  
-[Course Website](https://web.stanford.edu/class/cs231a/)
-
-> A modern course with **geometry-heavy emphasis**, excellent for those wanting more than ML black boxes.
+- 📐 **Mathematics for AI**: Linear algebra, calculus, probability, statistics  
+- 🐍 **Python Programming**: Data structures, functions, NumPy, Pandas  
+- 🤖 **Machine Learning**: Classification, regression, model evaluation  
+- 🧠 **Deep Learning**: CNNs, RNNs, LSTMs, Transformers  
+- 🗣 **NLP**: Text processing, embeddings, language models  
+- 👁 **Computer Vision**: Image classification, object detection, OpenCV  
+- 🎮 **Reinforcement Learning**: Q-learning, DQN, policy gradients  
+- ⚙️ **MLOps**: Model deployment, Docker, APIs, monitoring  
 
 ---
 
-## 🛠️ Coming Soon
+## 📚 Recommended Resources
 
-- ✅ Learning path for **Deep Learning + Vision** (e.g. CNNs, Transformers for Vision)
-- ✅ Projects and hands-on notebooks
-- ✅ Research paper recommendations
+### 1. [Mathematics for Machine Learning](https://mml-book.github.io/)  
+Learn the foundational math behind ML including linear algebra, probability, and calculus. Clear and beginner-friendly.
+
+### 2. [Deep Learning by Ian Goodfellow](https://www.deeplearningbook.org/)  
+The most cited academic book on deep learning. Covers theory, math, and neural network architectures comprehensively.
+
+### 3. [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)  
+Highly practical guide with real-world ML and DL projects using Python. Perfect for learners who want to code while learning.
+
+### 4. [CS231n: CNNs for Visual Recognition (Stanford)](http://cs231n.stanford.edu/)  
+Stanford’s classic CV course. Explains CNNs, backpropagation, optimization, and modern architectures with slides and assignments.
+
+### 5. [Fast.ai Course](https://course.fast.ai/)  
+A top free course focused on making deep learning accessible, practical, and productive with PyTorch.
+
+### 6. [Dive into Deep Learning (D2L)](https://d2l.ai/)  
+Interactive textbook with code in PyTorch, MXNet, and TensorFlow. Excellent for concept clarity and hands-on learning.
+
+### 7. [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)  
+Mathematically rich book on ML. Covers regularization, boosting, decision trees, and SVMs in depth.
+
+### 8. [Natural Language Processing with Transformers (O'Reilly)](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/)  
+Covers Hugging Face Transformers with practical tutorials on classification, summarization, and translation.
+
+### 9. [Reinforcement Learning: An Introduction by Sutton & Barto](http://incompleteideas.net/book/the-book.html)  
+The gold standard for RL. Explains MDPs, Q-learning, policy gradients, and value functions.
+
+### 10. [Machine Learning Engineering by Andriy Burkov](https://www.amazon.com/Machine-Learning-Engineering-Andriy-Burkov/dp/1999579577)  
+Short, actionable guide on building and deploying real-world ML systems. Covers monitoring, testing, and operations.
 
 ---
 
-## 👤 Author
+## 🤝 Contribution Guidelines
 
-**Arioo Barzan**  
-📫 [LinkedIn](https://www.linkedin.com/in/arioobarzan) | 🧠 Passionate about AI, CV, and Educational Content Creation
+We welcome contributions!
+
+1. Fork this repository  
+2. Create a new branch  
+3. Commit your changes (new folders, resources, corrections)  
+4. Open a Pull Request  
 
 ---
 
-## ⭐ Star This Repository
+## 📄 License
 
-If you find this roadmap helpful, don’t forget to ⭐ the repo and share it with others!
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-> "Learning vision isn't just about code — it's about **seeing** the world mathematically, geometrically, and computationally."  
-> — *A roadmap by Arioo Barzan*
+---
 
+## 📬 Contact
+
+Maintained by **[Arioo Barzan](https://www.linkedin.com/in/arioobarzan)**  
+For suggestions, collaborations, or questions, feel free to reach out.
+
+---
+
+⭐ If you found this roadmap useful, **star this repository** and share it with others!
